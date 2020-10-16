@@ -5,22 +5,22 @@ end
 
 # Define your WIN_COMBINATIONS constant
 
-WIN_COMBINATIONS = [
-    [0,1,2],
-    [3,4,5],
-    [6,7,8],
-    [0,3,6],
-    [1,4,7],
-    [2,5,8],
-    [0,4,8],
-    [6,4,2]
-  ]
+#WIN_COMBINATIONS = [
+ #   [0,1,2],
+#    [3,4,5],
+ #   [6,7,8],
+#    [0,3,6],
+ #   [1,4,7],
+#    [2,5,8],
+ #   [0,4,8],
+#    [6,4,2]
+ # ]
   
-  def won?(board)
-    win1 = WIN_COMBINATIONS[0]
-    win2 = WIN_COMBINATIONS[1]
-    win3 = WIN_COMBINATIONS[2]
-    win4 = WIN_COMBINATIONS[3]
+  #def won?(board)
+   # win1 = WIN_COMBINATIONS[0]
+  #  win2 = WIN_COMBINATIONS[1]
+   # win3 = WIN_COMBINATIONS[2]
+  #  win4 = WIN_COMBINATIONS[3]
     win5 = WIN_COMBINATIONS[4]
     win6 = WIN_COMBINATIONS[5]
     win7 = WIN_COMBINATIONS[6]
